@@ -1,0 +1,31 @@
+<html></html>
+    <head>
+        <title>TE AMO</title>
+        <link rel="stylesheet" type="text/css"
+        href="style.css">
+        <link rel="stylesheet" type="text/css"
+        href="styles.css">
+
+    </head>
+    <body onclick="PlayAudio()">
+        <div class="heart"></div>
+        <h1>I love you</h1>
+        <h2>Eres lo mas bonito que me paso en la vida espero que esta historia y todos estos momentos no tengan un final, quisiera que nos demos la oportunidad de tener algo muy bonito, desde hace mucho tiempo quise estar contigo y ahora espero poder ser parte de tu vida, de tus locuras, de tus aventuras y ser parte de tu corazon. Yo te quiero mucho no hay un momento que no deje de pensar en ti, si tu eres feliz yo igual lo soy, hare todo lo posible para que siempre seas feliz, espero y podamos ser novios en algun momento. </h2>
+        <h3>¿tu me quieres?</h3>
+        <audio id="musica1" loop>
+            <source src="sound/tu eres.mp3" type="audio/mpeg">
+        </audio>
+        <div class="container">
+            <div class="buttons">
+                <a href="si.html" class="btn btn-1">Si </a>
+                <a href="NO me quiere.html" class="btn btn-2">No</a>
+            </div>
+        </div>
+        <script>
+
+            function PlayAudio() {
+              document.getElementById("musica1").play();
+            }
+        </script>
+    </body>
+</html>
